@@ -8,7 +8,7 @@ const {
   deleteEvent,
 } = require("../controllers/eventController");
 const { protect } = require("../middleware/authMiddleware");
-const { upload } = require("../middleware/cloudinaryconfig"); // Import Cloudinary upload middleware
+const { upload } = require("../middleware/cloudinaryConfig"); // Import Cloudinary upload middleware
 
 router
   .route("/")
